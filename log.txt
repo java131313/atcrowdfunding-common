@@ -1,0 +1,58 @@
+
+DEBUG - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6f7c3ba8]
+DEBUG - Resetting read-only flag of JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6f7c3ba8]
+DEBUG - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6f7c3ba8] after transaction
+DEBUG - Returning JDBC Connection to DataSource
+DEBUG - com.mchange.v2.async.ThreadPoolAsynchronousRunner@11f58da9: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$1RefurbishCheckinResourceTask@72917e7d
+DEBUG - trace com.mchange.v2.resourcepool.BasicResourcePool@35cc340 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3da65078)
+DEBUG - Written [com.atguigu.atcrowdfunding.common.AJAXResult@78881dee] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@4bd0e6c7]
+DEBUG - Null ModelAndView returned to DispatcherServlet with name 'springmvc': assuming HandlerAdapter completed request handling
+DEBUG - Successfully completed request
+DEBUG - DispatcherServlet with name 'springmvc' processing GET request for [/main]
+DEBUG - Looking up handler method for path /main
+DEBUG - Returning handler method [public java.lang.String com.atguigu.atcrowdfunding.controller.DispatcherController.main()]
+DEBUG - Returning cached instance of singleton bean 'dispatcherController'
+DEBUG - Last-Modified value for [/main] is: -1
+DEBUG - Invoking afterPropertiesSet() on bean with name 'manager/main'
+DEBUG - Rendering view [org.springframework.web.servlet.view.JstlView: name 'manager/main'; URL [/WEB-INF/jsp/manager/main.jsp]] in DispatcherServlet with name 'springmvc'
+DEBUG - Forwarding to resource [/WEB-INF/jsp/manager/main.jsp] in InternalResourceView 'manager/main'
+DEBUG - Successfully completed request
+DEBUG - DispatcherServlet with name 'springmvc' processing GET request for [/manager/permission/index2]
+DEBUG - Looking up handler method for path /manager/permission/index2
+DEBUG - Returning handler method [public java.lang.String com.atguigu.atcrowdfunding.manager.controller.PermissionController.index2()]
+DEBUG - Returning cached instance of singleton bean 'permissionController'
+DEBUG - Last-Modified value for [/manager/permission/index2] is: -1
+DEBUG - Invoking afterPropertiesSet() on bean with name 'manager/permission/index'
+DEBUG - Rendering view [org.springframework.web.servlet.view.JstlView: name 'manager/permission/index'; URL [/WEB-INF/jsp/manager/permission/index.jsp]] in DispatcherServlet with name 'springmvc'
+DEBUG - Forwarding to resource [/WEB-INF/jsp/manager/permission/index.jsp] in InternalResourceView 'manager/permission/index'
+DEBUG - Successfully completed request
+DEBUG - DispatcherServlet with name 'springmvc' processing POST request for [/manager/permission/loadTreeDatas]
+DEBUG - Looking up handler method for path /manager/permission/loadTreeDatas
+DEBUG - Returning handler method [public java.lang.Object com.atguigu.atcrowdfunding.manager.controller.PermissionController.loadTreeDatas()]
+DEBUG - Returning cached instance of singleton bean 'permissionController'
+DEBUG - Creating new transaction with name [com.atguigu.atcrowdfunding.manager.service.impl.PermissionServiceImpl.queryAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+DEBUG - trace com.mchange.v2.resourcepool.BasicResourcePool@35cc340 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3da65078)
+DEBUG - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@277f66ed] for JDBC transaction
+DEBUG - Setting JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@277f66ed] read-only
+DEBUG - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@277f66ed] to manual commit
+DEBUG - Creating a new SqlSession
+DEBUG - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7903a813]
+DEBUG - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@277f66ed] will be managed by Spring
+DEBUG - ==>  Preparing: select * from t_permission 
+DEBUG - ==> Parameters: 
+DEBUG - <==      Total: 20
+DEBUG - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7903a813]
+DEBUG - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7903a813]
+DEBUG - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7903a813]
+DEBUG - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7903a813]
+DEBUG - Initiating transaction commit
+DEBUG - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@277f66ed]
+DEBUG - Resetting read-only flag of JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@277f66ed]
+DEBUG - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@277f66ed] after transaction
+DEBUG - Returning JDBC Connection to DataSource
+DEBUG - com.mchange.v2.async.ThreadPoolAsynchronousRunner@11f58da9: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$1RefurbishCheckinResourceTask@67711d57
+DEBUG - trace com.mchange.v2.resourcepool.BasicResourcePool@35cc340 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3da65078)
+DEBUG - Written [com.atguigu.atcrowdfunding.common.AJAXResult@35e524b7] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@4bd0e6c7]
+DEBUG - Null ModelAndView returned to DispatcherServlet with name 'springmvc': assuming HandlerAdapter completed request handling
+DEBUG - Successfully completed request
+DEBUG - com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@2f3b2504 -- Running DeadlockDetector[Exiting. No pending tasks.]
